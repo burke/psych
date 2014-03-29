@@ -13,7 +13,7 @@ require "rake/extensiontask"
 
 Hoe.plugin :doofus, :git, :gemspec, :isolate
 
-$hoe = Hoe.spec 'psych' do
+$hoe = Hoe.spec 'psych-shopifork' do
   license   'MIT'
   developer 'Aaron Patterson', 'aaron@tenderlovemaking.com'
 
